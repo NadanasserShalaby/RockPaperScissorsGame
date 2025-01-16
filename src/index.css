@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #5a5a5a;
+  }
+  
+  #game-container {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.8em;
+    color: #ff6f91;
+    text-shadow: 2px 2px 8px rgba(255, 111, 145, 0.5);
+  }
+  
+  #choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  
+  .choice {
+    background: #fbc2eb;
+    border: 2px solid #ff6f91;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .choice:hover {
+    background: #ff6f91;
+    box-shadow: 0 4px 10px rgba(255, 111, 145, 0.6);
+  }
+  
+  #hands-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .hand-display {
+    font-size: 3.5em;
+    background: #ffe4e1;
+    border: 2px dashed #ff6f91;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #result {
+    font-size: 1.8em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ff6f91;
+    text-shadow: 1px 1px 5px rgba(255, 111, 145, 0.6);
+  }
+  
+  #score {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #5a5a5a;
+  }
+  
+  #reset-btn {
+    background: #fbc2eb;
+    border: none;
+    color: #ffffff;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  #reset-btn:hover {
+    background: #ff6f91;
+    box-shadow: 0 4px 10px rgba(255, 111, 145, 0.6);
+  }
+  
